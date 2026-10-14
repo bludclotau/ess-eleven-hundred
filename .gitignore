@@ -1,0 +1,18 @@
+build/
+build-*/
+.cache/
+compile_commands.json
+CMakeUserPresets.json
+.vscode/
+.idea/
+.DS_Store
+*.user
+
+# Firmware ROMs are copyrighted - never commit them
+*.rom
+*.bin
+roms/
+
+# Third-party sample packs are not redistributed
+samples/**/*.wav
+s11.txt
